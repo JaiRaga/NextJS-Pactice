@@ -1,13 +1,8 @@
-import Link from "next/link";
+import NavBar from "../component/NavBar";
 
 const Index = () => (
   <>
-    <Link href='/about'>
-      <button>About Page</button>
-    </Link>
-    <Link href='/contact'>
-      <button>Contact Page</button>
-    </Link>
+    <NavBar />
     <h1>Hello World</h1>
   </>
 );
